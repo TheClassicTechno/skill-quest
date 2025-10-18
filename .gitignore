@@ -1,0 +1,43 @@
+*.csproj
+*.sln
+*/obj/
+*/Library/
+*/[Uu]ser[Ss]ettings/
+*/Logs/
+*/Temp/
+*/*.app/
+*/.vs/
+
+*/*.csproj
+*/*.sln
+*/*/obj/
+*/*/Library/
+*/*/Temp/
+*/*.apk
+*/*/*.app/
+*/*/.vs/
+*/TextMesh Pro/*
+*/TextMesh Pro.meta
+**/.utmp
+Library
+*.apk
+
+**/Assets/Blossom\ Buddy/Sample\ Provider\ Assets/
+
+**/.gradle/
+# We don't want to ignore the meta files for the libraries, as they contain critical information
+!**/Plugins/Android.meta
+!**/Plugins/Android/**/*
+!**/*.asmdef.meta
+!**/*.json.meta
+
+**/*.csproj
+
+# Ignore buildinfo
+Assets/Resources/buildinfo*
+
+# Unity3D generated build temp files
+*BurstDebugInformation_DoNotShip*
+
+*/com.meta.xr.mrutilitykit-83.0.0-hackathon
+*/com.meta.xr.sdk.core-83.0.0-hackathon

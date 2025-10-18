@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "InputAction",
+    "maps": [
+        {
+            "name": "Left Hand Actions",
+            "id": "84ed3073-bb58-496a-b235-264b6010a921",
+            "actions": [
+                {
+                    "name": "Activate SST",
+                    "type": "Button",
+                    "id": "b956f150-8ac3-485b-bd45-9d18a3017f5b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ce8682ef-4b50-4867-a4ac-e4d435a6acb4",
+                    "path": "<XRController>{LeftHand}/{SecondaryAction}",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Activate SST",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
